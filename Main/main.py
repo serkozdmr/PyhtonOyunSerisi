@@ -17,15 +17,15 @@ FPS = 27
 saat = pygame.time.Clock()
 
 #Karakter ve yem tanımlama
-canavar1 = pygame.image.load("monster.png")
+canavar1 = pygame.image.load("../Resimler/monster.png")
 canavar_koordinat = canavar1.get_rect()
 canavar_koordinat.topleft = (320,390)
 #canavar2 = pygame.image.load("monster2.png")
-yem = pygame.image.load("dollar.png")
+yem = pygame.image.load("../Resimler/dollar.png")
 yem_koordinat = yem.get_rect()
 yem_koordinat.topleft = (150,150)
 
-arkaplan = pygame.image.load("arkaplan1.jpg")
+arkaplan = pygame.image.load("../Resimler/arkaplan1.jpg")
 arkaplan = pygame.transform.scale(arkaplan,(GENISLIK, YUKSEKLIK))
 #Font ayarları
 FONT = pygame.font.SysFont("consolas", 64)
